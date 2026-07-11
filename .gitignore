@@ -1,0 +1,35 @@
+# reproducible runtime output
+data/
+logs/
+__pycache__/
+*.out
+*.log
+
+# personal / private - never push
+inspect/
+2026-07-02/
+ugh/
+ughh/
+deepresearch*.txt
+*.key
+.github_token
+profile/*
+!profile/README.md
+
+# containers (11 GB, live in the parent quant_swarm dir anyway)
+*.sif
+
+# tooling state
+.claude/
+
+# any dated report dir + bytecode
+[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]/
+*.pyc
+
+# ---- never publish: personal work queue and job-search meta docs ----
+TODO.md
+WHAT_TO_DO_WHEN_YOU_HAVE_TO_APPLY_NOT_THROUGH_EMAIL.md
+WRITEUP_MASTER_PROMPT.md
+writeup_deepresearch_prompt.md
+RESUME_ENTRY.md
+PROJECT_WRITEUP.md
